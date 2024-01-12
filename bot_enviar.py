@@ -1,7 +1,7 @@
 from telegram import Update, ParseMode
 from telegram.ext import Updater, CommandHandler, MessageHandler,  Filters, CallbackContext
 
-TOKEN= "Aquí tu toquen del bot"
+TOKEN= "Aquí tu token del bot"
 CHAT_ID ="Aquí el valor que te retorne print (update.message.chat.id)"
 
 def echo (update: Updater, context: CallbackContext):
